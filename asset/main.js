@@ -15,7 +15,7 @@ btn.addEventListener("click", function(){
         array.push(Math.floor(Math.random() * 100) +1)   
     }
     console.log(array)
-    cont.innerHTML=`Prova a ricordare questi numeri ? <br> ${array}`
+    cont.innerHTML=`Prova a ricordare questi numeri <br> ${array}`
     
     let timer=setTimeout(() => {
         cont.classList.add("none")
