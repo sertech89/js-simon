@@ -1,3 +1,7 @@
+body{
+    background-color: grey;
+}
+
 .none{
     display: none;
 }
@@ -14,11 +18,17 @@
     text-align: center;
     font-size: 2em;
     margin-right: 20px;
+    background-color: green;
+    color: honeydew;
+    border: 3px solid greenyellow;
 }
 #btn2{
     padding: 20px 50px;
     text-align: center;
     font-size: 2em;
+    background-color: red;
+    color: honeydew;
+    border: 3px solid hotpink;
 }
 .cont_btn{
     display: flex;
